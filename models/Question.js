@@ -6,8 +6,10 @@ class Question{
  static CreateTable() {
   //  sql.CREATETABLE
    return new Promise (function(resolve){
-     sql CREATE TABLE questions (id INTEGER PRIMARY KEY, content TEXT);
+     const = sql CREATE TABLE questions (id INTEGER PRIMARY KEY, content TEXT)
+     db.run(sql, function(){
    resolve ("Kept my promise!")
+    })
   })
  }
 }
