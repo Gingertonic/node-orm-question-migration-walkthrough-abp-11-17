@@ -7,7 +7,7 @@ class Question{
   //  sql.CREATETABLE
   //  new Promise
   //  resolve "Kept my promise!"
-}
+ }
 }
 
 
