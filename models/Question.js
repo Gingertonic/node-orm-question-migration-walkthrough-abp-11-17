@@ -6,7 +6,7 @@ class Question{
  static function() {
    sql.CREATETABLE
    new Promise {
-   resolve "Kept my promise!" 
+   resolve "Kept my promise!"
  }
 }
 
