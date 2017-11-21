@@ -5,9 +5,9 @@ const db = require("../config/db")
 class Question{
  static CreateTable() {
   //  sql.CREATETABLE
-   new Promise ()
-   resolve "Kept my promise!"
- }
+   return new Promise (function(resolve){
+   resolve ("Kept my promise!")
+ })
 }
 
 
