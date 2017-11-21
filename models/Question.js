@@ -5,7 +5,7 @@ const db = require("../config/db")
 class Question{
  static function() {
    sql.CREATETABLE
-   new Promise 
+   new Promise
    resolve "Kept my promise!"
 
 }
