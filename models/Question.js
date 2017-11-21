@@ -7,7 +7,8 @@ class Question{
   //  sql.CREATETABLE
    return new Promise (function(resolve){
    resolve ("Kept my promise!")
- })
+  })
+ }
 }
 
 
